@@ -2,7 +2,7 @@ Name: Bilbo Baggins
 Address: 123 Bag End
 GPA: 3.59
 
-Name: Thorin Oakensheild
+Name: Thorin Oakenshield
 Address: The Lonely Mountain
 GPA: 2.0
 
