@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class StudentData {
 	public static void main(String[] args) {
@@ -18,6 +20,7 @@ public class StudentData {
 			remainInLoop = scanner.nextInt();
 			scanner.nextLine();
 		}
+		Collections.sort(students, Comparator.comparing(Student::getName));
 		writeToFile(students);
 		System.out.println("The contents of this have been written to StudentData.txt! Thank you!");
 	}
