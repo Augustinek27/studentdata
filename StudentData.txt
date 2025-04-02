@@ -1,0 +1,12 @@
+Name: Bilbo Baggins
+Address: 123 Bag End
+GPA: 3.59
+
+Name: Thorin Oakensheild
+Address: The Lonely Mountain
+GPA: 2.0
+
+Name: Gandalf
+Address: ???
+GPA: 4.0
+
